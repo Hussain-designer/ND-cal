@@ -1,0 +1,54 @@
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.Calculator {
+    margin: 20px auto;
+    width: 220px;
+    height: 370px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #000;
+}
+
+#display {
+    width: 94%;
+    height: 120px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border: none;
+    color: white;
+    background-color: #000;
+}
+
+.button button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #000;
+}
+
+#iphone {
+    background: orange;
+}
+
+.button .zero {
+    width: 90px;
+    border-radius: none;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.Group {
+    margin-top: 30px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>web viwe</title>
+</head>
+<body>
+    <label for="bgcolor">Background Colors:</label>
+    <select  id="bgcolor" onchange="changeBg(this.value)" >
+        <option value="white">select Background color</option>
+        <option value="Yellow">Yellow</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+    </select>
+
+<div class="Calculator">
+    <input type="text" id="display" readonly>
+    <div class="button">
+        <button onclick="clearDisplay('AC')">AC</button>
+        <button onclick="appendvalue('±')">±</button>
+        <button onclick="appendvalue('%')">%</button>
+        <button onclick="appendvalue('/')" id="iphone">÷</button>
+
+        <button onclick="appendvalue('7')">7</button>
+        <button onclick="appendvalue('8')">8</button>
+        <button onclick="appendvalue('9')">9</button>
+        <button onclick="appendvalue('*')" id="iphone">X</button>
+
+        <button onclick="appendvalue('4')">4</button>
+        <button onclick="appendvalue('5')">5</button>
+        <button onclick="appendvalue('6')">6</button>
+        <button onclick="appendvalue('-')" id="iphone">-</button>
+
+        <button onclick="appendvalue('1')">1</button>
+        <button onclick="appendvalue('2')">2</button>
+        <button onclick="appendvalue('3')">3</button>
+        <button onclick="appendvalue('+')" id="iphone">+</button>
+
+        <button class="zero" onclick="appendvalue('0')">0</button>
+        <button onclick="appendvalue('.')">.</button>
+        <button onclick="calculate()" id="iphone">=</button>
+    </div>
+
+    <div class="Group">
+        <label for="bgcolor">Group Members</label>
+        <select>
+            <option value="white">List of Group Members</option>
+            <option value="Yellow">Hussaini Muktar Adam (ND/COM/23/0240)</option>
+            <option value="Blue">Kabir yahaya Hussain (ND/COM/23/0129)</option>
+            <option value="Green">Abdulrauf khamis (ND/COM/23/0249)</option>
+            <option value="Green">Imran Kabir Fagge (ND/COM/23/0111)</option>
+            <option value="Green">Ahmad Ishaq (ND/COM/23/086)</option>
+            <option value="Green">Muhammad Abdulsalam (ND/COM/23/0232)</option>
+            <option value="Green">Abduljalil munir Abdullahi (ND/COM/23/0090)</option>
+        </select>
+    </div>
+    
+
+</div>
+
+    
+
+
+<script src="./script.js"></script>
+</body>
+</html>
